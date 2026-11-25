@@ -1,0 +1,27 @@
+{
+  "model_id": "huseyincavus/lunar-trn-ft-real",
+  "architecture": "YOLO26s",
+  "task": "single-class crater detection",
+  "input_size": 1024,
+  "training_domain": "Real LROC WAC imagery (LU3M6TGT)",
+  "training_patches": 8756,
+  "held_out_patches": 1545,
+  "reported_metrics": {
+    "mAP50": 0.947,
+    "mAP50_95": 0.830,
+    "robbins_ge_2km_human_verified_recall": 0.606,
+    "isolated_tile_mAP50": 0.942
+  },
+  "limitations": [
+    "Held-out patches are from the same mosaic and do not constitute a fully independent regional test.",
+    "Sub-kilometre craters are weak; reported AP50 is approximately 0.37 below 0.6 km.",
+    "The strongest reported size band is approximately 1-4 km.",
+    "Catalogue labels cover approximately 59 percent of Robbins craters at least 2 km across.",
+    "Research model; not flight-qualified."
+  ],
+  "weights_license": "MIT (as stated by the model card)",
+  "dataset_license": "CC BY-SA 4.0 (LU3M6TGT)",
+  "model_card_url": "https://huggingface.co/huseyincavus/lunar-trn-ft-real",
+  "source_repository": "https://github.com/huseyincavusbi/lunar-trn",
+  "checkpoint_sha256": "9ac00b954522f64752cae30b5c1eee3a9a1fcd287f9324e8976068d08f3a6d6d"
+}

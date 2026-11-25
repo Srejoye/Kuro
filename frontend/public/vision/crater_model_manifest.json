@@ -1,0 +1,31 @@
+{
+  "model_id": "huseyincavus/lunar-trn-ft-real",
+  "model_name": "Lunar TRN real-domain crater detector",
+  "architecture": "YOLO26s",
+  "task": "single-class crater object detection",
+  "class_names": [
+    "crater"
+  ],
+  "input_size": 1024,
+  "input_shape": [
+    1,
+    3,
+    1024,
+    1024
+  ],
+  "output_shapes": [
+    [
+      1,
+      5,
+      21504
+    ]
+  ],
+  "confidence_threshold": 0.25,
+  "nms_iou_threshold": 0.7,
+  "max_detections": 300,
+  "checkpoint_sha256": "9ac00b954522f64752cae30b5c1eee3a9a1fcd287f9324e8976068d08f3a6d6d",
+  "onnx_file": "frontend/public/models/lunar_crater_detector.onnx",
+  "weights_license": "MIT (as stated by the model card)",
+  "model_card": "https://huggingface.co/huseyincavus/lunar-trn-ft-real",
+  "source_repository": "https://github.com/huseyincavusbi/lunar-trn"
+}
