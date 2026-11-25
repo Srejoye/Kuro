@@ -1,8 +1,8 @@
-# 🌕 KURO — Lunar South Pole Navigator
+# 🌕 KURO
 
 > An interactive lunar landing-site intelligence platform that evaluates 78 candidate sites across 9 regions near the Moon’s South Pole — combining NASA terrain data, celestial ephemerides, horizon analysis and 3D visualization to identify optimal conditions for sunlight and Earth communication.
 
-🔗 **Built with:** React · TypeScript · Three.js · Python · NASA JPL DE421 · LOLA · ONNX Runtime
+🔗 **[Live Demo](https://kuro-mnsy.onrender.com/)** &nbsp;|&nbsp; Built with React · TypeScript · Three.js · Python · NASA JPL DE421 · LOLA · ONNX Runtime
 
 ---
 
