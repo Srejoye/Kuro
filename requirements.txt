@@ -1,0 +1,11 @@
+# Lunar ephemeris generation
+numpy>=1.24,<3
+de421==2008.1
+jplephem>=2.21,<3
+
+# Crater detection model download, ONNX export and validation
+huggingface_hub>=0.30
+ultralytics>=8.4.142,<9
+onnx>=1.16
+onnxslim>=0.1.71
+onnxruntime>=1.20

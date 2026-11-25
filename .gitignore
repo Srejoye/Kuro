@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-crater/
+venv/
+
+# Generated outputs
+output/*
+!output/vision/
+output/vision/*
+!output/vision/.gitkeep
+
+# Datasets and large raster files
+dataset/
+*.tif
+*.TIF
+
+# Build and temporary files
+*.bundle
+.tmp-preview/
+frontend/tsconfig.tsbuildinfo
+
+# Local environment and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# Downloaded and generated lunar source grids
+frontend/data/raw/
+frontend/public/moon/*.u16
+frontend/public/moon/*.i16
